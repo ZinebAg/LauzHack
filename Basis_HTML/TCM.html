@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>PandemicAnalytics - Two View mode</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="home.css">
+	    <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+        <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+        <script src="https://unpkg.com/d3-simple-slider"></script>
+	</head>
+
+	<body>
+		<div id="title">
+		<h1>PandemicAnalytics</h1>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href = "home.html">Home</a></li>
+				<li><a href = "Model.html">Modelisation</a></li>
+				<li><a href = "PSC.html">Pre-selected Comparisons</a></li>
+				<li><a href = "SCM.html">Single View Mode</a></li>
+				<li><a href = "about.html">About</a></li>
+			</ul>
+		</nav>
+
+		<div class="conteneur">	
+			<h2>Compare different models</h2>
+
+			<p> Welcome to Comparaison Mode! Here, you have the possibility to change the values of different parameters affecting the spread, and to compare the results.<br><br> We remind you that you can play around with the following parameters:<br><br></p>
+
+			<ul class="tiret">
+  				<li>μG, the average global infections caused by a single infected individual,</li>
+  				<li>μL, the average inter-communal infections caused by a single infected individual within this community,</li>
+  				<li>D, the average duration of the infection, during which individuals are contagious.</li>
+			</ul>
+
+			<p> If you only want to see a single simulation at a time, full-screen, go check out our <a href = "SCM.html">
+			<u>Single View mode</u> tab.</a></p>
+
+			<p> Note to the user: In Comparaison Mode, the scale was supposed to adapt so that with any parameter choice, the two graphs would have the same scale; making it easier to compare them. Due to the lack of time, we came short in the context of this project but plan to implement it at a later point. <br><br></p>
+
+			
+
+
+
+                       
+          <div id = "vis"></div>
+          <script src="sir.js"></script>			
+
+		</div>
+	</body>
+</html>

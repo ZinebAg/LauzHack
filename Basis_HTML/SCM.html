@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>PandemicAnalytics - Single View Mode</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="home.css">
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+        <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+        <script src="https://unpkg.com/d3-simple-slider"></script>
+	</head>
+
+	<body>
+		<div id="title">
+		<h1>PandemicAnalytics</h1>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href = "home.html">Home</a></li>
+				<li><a href = "Model.html">Modelisation</a></li>
+				<li><a href = "PSC.html">Pre-selected Comparisons</a></li>
+				<li><a href = "TCM.html">Comparison Mode</a></li>
+				<li><a href = "about.html">About</a></li>
+			</ul>
+		</nav>
+
+		<div class="conteneur">	
+			<h2>Single View Mode</h2>
+
+
+			<p> Welcome to Single View mode! We remind you that you can play around with the following parameters:<br><br></p>
+
+			<ul class="tiret">
+  				<li>μG, the average global infections caused by a single infected individual,</li>
+  				<li>μL, the average inter-communal infections caused by a single infected individual within this community,</li>
+  				<li>D, the average duration of the infection, during which individuals are contagious.</li>
+			</ul>
+
+			<p> Note to the user: Keep in mind that in Single Mode View, the scale of the graph adapts automatically so the graph is fitted full screen. If you want to compare graphs in a pertinent way, we suggest you use our <a href = "TCM.html"><u>comparison mode</u> tab</a></p>
+
+
+                  
+          <div id = "vis"></div>
+          <script src="single.js"></script>
+
+	
+
+		</div>
+	</body>
+</html>
