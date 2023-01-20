@@ -11,10 +11,14 @@ In the midst of the COVID19 pandemic, which changed the world order as we
               One can wonder if these measures can really help slow down the spread?
               If so at which rates do they have to be implemented to be effective? How do
               different measures add up ?
+              
+              
               As students, we consider that the LauzHack is a great opportunity to put
               into practice concepts we learnt so far towards a good cause.To do so we are
               using mathematical models: in fact, they can give quite precise ideas of the
               situation and allow us to make relevant predictions.
+              
+              
               Due to the lack of data on the current pandemic: we study general epidemics
               and try to analyse their spread. We allow the visitors to choose different values
               for parameters through an interactive platform. The different options will give
