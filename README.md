@@ -1,8 +1,4 @@
-# LauzHack
-
-Hi! We're happy to see you here.
-To use PandemicAnalytics, please download all files in Basis_HTML, then open home.html in your web browser. You can then navigate using the tabs on the top of the screen. 
-Enjoy!
+# LauzHack motivation
 
 In the midst of the COVID19 pandemic, which changed the world order as we
               know it, we can quickly get overwhelmed. With all the news, numbers and new
@@ -25,3 +21,8 @@ Due to the lack of data on the current pandemic: we study general epidemics
               a better interpretation on how different values lead to different spread rates and
               thus how strategies like confinement to different rates and social distancing for
               instance affect.
+
+# How to use
+To use PandemicAnalytics, please download all files in Basis_HTML, then open home.html in your web browser. You can then navigate using the tabs on the top of the screen. 
+
+Enjoy!
